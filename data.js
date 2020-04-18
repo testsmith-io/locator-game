@@ -1,6 +1,6 @@
 var levels = [
   {
-    instruction: "Select all titles",
+    instruction: "1. Select all titles",
     helpTitle: "Select by tag",
     selector: {
       css: "h3"
@@ -18,7 +18,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the description text",
+    instruction: "2. Select the description text",
     helpTitle: "Select by id",
     selector: {
       css: "p#description"
@@ -36,7 +36,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the active list item",
+    instruction: "3. Select the active list item",
     helpTitle: "Select by class",
     selector: {
       css: "li.active"
@@ -55,7 +55,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select only the button which is part of the toolbar",
+    instruction: "4. Select only the button which is part of the toolbar",
     helpTitle: "Descendant Selector",
     selector: {
       css: "div#toolbar button"
@@ -74,7 +74,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the first div",
+    instruction: "5. Select the first div",
     helpTitle: "Select first of type",
     selector: {
       css: "div:first-of-type()"
@@ -90,7 +90,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the last div",
+    instruction: "6. Select the last div",
     helpTitle: "Select last of type",
     selector: {
       css: "div:last-of-type()"
@@ -106,7 +106,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the second element from the list",
+    instruction: "7. Select the second element from the list",
     helpTitle: "Select child elements",
     selector: {
       css: "ul > li:nth-child(2)"
@@ -126,7 +126,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select element with text Oceans based on text",
+    instruction: "8. Select element with text Oceans based on text",
     helpTitle: "Select elements based on text",
     selector: {
       xpath: "//h4[text() = 'Oceans']"
@@ -145,7 +145,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the nickname textfield",
+    instruction: "9. Select the nickname textfield",
     helpTitle: "Select elements with attribute exactly containing value",
     selector: {
       css: "input[name='nickname']"
@@ -165,7 +165,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the username textfield",
+    instruction: "10. Select the username textfield",
     helpTitle: "Select elements with attribute ending with value",
     selector: {
       css: "input[name$='inputUsername']"
@@ -185,7 +185,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the email textfield",
+    instruction: "11. Select the email textfield",
     helpTitle: "Select elements with attribute exactly containing value",
     selector: {
       css: "input[name*='inputEmail']"
@@ -205,7 +205,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the password textfield",
+    instruction: "12. Select the password textfield",
     helpTitle: "Select elements with attribute starting with value",
     selector: {
       css: "input[name^='inputPassword']"
@@ -225,7 +225,7 @@ var levels = [
     `
   },
   {
-    instruction: "Select the Edit button related to row 678",
+    instruction: "13. Select the Edit button related to row 678",
     helpTitle: "Walking up the DOM",
     selector: {
       xpath: "//td[contains(text(), '678')]/../td/button[@class = 'edit']"
