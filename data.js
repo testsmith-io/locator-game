@@ -208,7 +208,7 @@ var levels = [
     instruction: "12. Select the password textfield",
     helpTitle: "Select elements with attribute starting with value",
     selector: {
-      css: "input[name^='inputPassword']"
+      css: "input[name^='password']"
     },
     helpText: "<strong>E[a^='v']</strong> selects all elements starting with a attribute value.",
     examples: [
