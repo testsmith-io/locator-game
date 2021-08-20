@@ -160,7 +160,7 @@ var levels = [
 	<input name="j_id819:inputUsername" type="text" placeholder="username" />
 	<input name="nickname" type="text" placeholder="nickname" />
 	<input name="j_id819:inputEmail:j_id819" type="text" placeholder="email" />
-	<input name="inputPassword:j_id819" type="text" placeholder="password" />
+	<input name="password:j_id819" type="text" placeholder="password" />
 </form>
     `
   },
@@ -180,7 +180,7 @@ var levels = [
 	<input name="j_id819:inputUsername" type="text" placeholder="username" />
 	<input name="nickname" type="text" placeholder="nickname" />
 	<input name="j_id819:inputEmail:j_id819" type="text" placeholder="email" />
-	<input name="inputPassword:j_id819" type="text" placeholder="password" />
+	<input name="password:j_id819" type="text" placeholder="password" />
 </form>
     `
   },
@@ -200,7 +200,7 @@ var levels = [
 	<input name="j_id819:inputUsername" type="text" placeholder="username" />
 	<input name="nickname" type="text" placeholder="nickname" />
 	<input name="j_id819:inputEmail:j_id819" type="text" placeholder="email" />
-	<input name="inputPassword:j_id819" type="text" placeholder="password" />
+	<input name="password:j_id819" type="text" placeholder="password" />
 </form>
     `
   },
@@ -220,7 +220,7 @@ var levels = [
 	<input name="j_id819:inputUsername" type="text" placeholder="username" />
 	<input name="nickname" type="text" placeholder="nickname" />
 	<input name="j_id819:inputEmail:j_id819" type="text" placeholder="email" />
-	<input name="inputPassword:j_id819" type="text" placeholder="password" />
+	<input name="password:j_id819" type="text" placeholder="password" />
 </form>
     `
   },
