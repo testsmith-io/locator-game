@@ -261,7 +261,7 @@ var levels = [
         <td>&euro; 100,-</td>
         <td><button class="edit">Edit</button><button class="delete">Delete</button></td>
     </tr>
-    </table>
+</table>
     `
   }
 
