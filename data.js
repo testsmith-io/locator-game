@@ -32,7 +32,7 @@ var levels = [
 <h3>Title 1</h3>
 <p>Lorem ipsum dolor sit amet.</p>
 <h3>Title 2</h3>
-<p id="description">Consectetur adipiscing elit.</p>
+<p id="description">Description text.</p>
     `
   },
   {
