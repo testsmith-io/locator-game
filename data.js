@@ -190,7 +190,7 @@ var levels = [
     selector: {
       css: "input[name*='inputEmail']"
     },
-    helpText: "<strong>E[a=*'v']</strong> selects all elements that contain a specific attribute value.",
+    helpText: "<strong>E[a*='v']</strong> selects all elements that contain a specific attribute value.",
     examples: [
       'CSS: E[a*="v"]',
       'XPath: //E[contains(@A, "v")]',
