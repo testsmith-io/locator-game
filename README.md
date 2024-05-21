@@ -1,6 +1,6 @@
 # Locator Game
 
-13 exercises which you can use to practice the creation of locators.
+13 exercises that you can use to practice the creation of locators.
 
 
 # Support This Project
